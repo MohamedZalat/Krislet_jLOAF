@@ -67,6 +67,9 @@ class Krislet implements SendCommand
 			    {
 				team = a[c+1];
 			    }
+			else if( a[c].compareTo("-matchType")==0){
+				m_matching = a[c+1];
+				}
 			else
 			    {
 				throw new Exception();
@@ -217,7 +220,7 @@ class Krislet implements SendCommand
 			    m_team, 
 			    m.group(1).charAt(0),
 			    Integer.parseInt(m.group(2)),
-			    m.group(3));
+			    m.group(3),m_matching);
     }
 
 
@@ -324,6 +327,7 @@ class Krislet implements SendCommand
     private boolean             m_playing;              // controls the MainLoop
     private Pattern message_pattern = Pattern.compile("^\\((\\w+?)\\s.*");
     private Pattern hear_pattern = Pattern.compile("^\\(hear\\s(\\w+?)\\s(\\w+?)\\s(.*)\\).*");
+    private static String m_matching="default";//how the brain performs matching
     //private Pattern coach_pattern = Pattern.compile("coach");
     // constants
     private static final int	MSG_SIZE = 4096;	// Size of socket buffer

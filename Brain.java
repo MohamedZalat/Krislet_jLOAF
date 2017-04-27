@@ -32,7 +32,8 @@ class Brain extends Thread implements SensorInput
 		 String team, 
 		 char side, 
 		 int number, 
-		 String playMode)
+		 String playMode,
+		 String matchType)
     {
 	m_timeOver = false;
 	m_krislet = krislet;
@@ -46,6 +47,7 @@ class Brain extends Thread implements SensorInput
 	//add agent
 	CaseBase cb = CaseBase.load("casebase_reactive_new.cb");
 	agent = new RoboCupAgent(cb);
+	agent.setSim(matchType);
 	
 	start();
     }
