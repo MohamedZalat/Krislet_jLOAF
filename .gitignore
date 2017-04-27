@@ -45,3 +45,16 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+/BallInfo.class
+/Brain.class
+/FlagInfo.class
+/GoalInfo.class
+/Krislet.class
+/LineInfo.class
+/Memory.class
+/ObjectInfo.class
+/PlayerInfo.class
+/SendCommand.class
+/SensorInput.class
+/SoccerParams.class
+/VisualInfo.class
