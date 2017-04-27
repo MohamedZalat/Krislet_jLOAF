@@ -136,7 +136,9 @@ class Brain extends Thread implements SensorInput
     //----------------------------------------------------------------------------
     //converts a memory into a complex input
     private RoboCupInput Convert2Complex(Memory m) {
-		//get visualinfo
+		//
+    	boolean want_flags = true;
+    	//get visualinfo
 		VisualInfo info = m.getVisualInfo();
 		//get objectInfo vector
 		if(info!=null){
@@ -178,60 +180,62 @@ class Brain extends Thread implements SensorInput
 					goal_l.add(g_dir);
 					input.add(goal_l);
 				}
-				
-				String [] flags = {"flag c b", "flag l b","flag r b", "flag c t","flag l t", "flag r t", "flag c", "flag p l t", "flag p l c", "flag p l b", "flag p r t", "flag p r c", "flag p r b" };
-				String [] flag_names = {"fcb", "flb","frb", "fct","flt", "frt", "fc","fplt", "fplc", "fplb", "fprt", "fprc", "fprb"}; 
-				
-				for(int i =0;i<flags.length;i++){
-					if(obj.m_type.equals(flags[i]) && ((FlagInfo) obj).m_num==0){
-						Feature dist = new Feature(obj.m_distance);
-						Feature dir = new Feature(obj.m_direction);
-						AtomicInput fdist = new AtomicInput("dist",dist);
-						AtomicInput fdir = new AtomicInput("dir",dir);
-						ComplexInput f = new ComplexInput(flag_names[i]);
-						f.add(fdist);
-						f.add(fdir);
-						input.add(f);
-					}
-				}
-				
-				String [] flags_top_bot = {"flag t l", "flag t r","flag b l", "flag b r"};
-				String [] flag_names_top_bot = {"ftl","ftr","fbl","fbr"};
-				int [] flag_dist_top_bot = {50, 40,30,20,10};
-				
-				for(int i =0;i<flags_top_bot.length;i++){
-					for(int j =0; j<flag_dist_top_bot.length;j++){
-						if(obj.m_type.equals(flags_top_bot[i]) && ((FlagInfo) obj).m_num==flag_dist_top_bot[j]){
+				if (want_flags){
+					String [] flags = {"flag c b", "flag l b","flag r b", "flag c t","flag l t", "flag r t", "flag c", "flag p l t", "flag p l c", "flag p l b", "flag p r t", "flag p r c", "flag p r b" };
+					String [] flag_names = {"fcb", "flb","frb", "fct","flt", "frt", "fc","fplt", "fplc", "fplb", "fprt", "fprc", "fprb"}; 
+					
+					for(int i =0;i<flags.length;i++){
+						if(obj.m_type.equals(flags[i]) && ((FlagInfo) obj).m_num==0){
 							Feature dist = new Feature(obj.m_distance);
 							Feature dir = new Feature(obj.m_direction);
 							AtomicInput fdist = new AtomicInput("dist",dist);
 							AtomicInput fdir = new AtomicInput("dir",dir);
-							ComplexInput f = new ComplexInput(flag_names_top_bot[i]+String.valueOf(flag_dist_top_bot[j]));
+							ComplexInput f = new ComplexInput(flag_names[i]);
 							f.add(fdist);
 							f.add(fdir);
 							input.add(f);
 						}
 					}
-				}
-				
-				String [] flags_r_l = {"flag r t", "flag r b","flag l t", "flag l b"};
-				String [] flag_names_r_l = {"frt","frb","flt","flb"};
-				int [] flag_dist_r_l = {30,20,10};
-				
-				for(int i =0;i<flags_r_l.length;i++){
-					for(int j =0; j<flag_dist_r_l.length;j++){
-						if(obj.m_type.equals(flags_r_l[i]) && ((FlagInfo) obj).m_num==flag_dist_r_l[j]){
-							Feature dist = new Feature(obj.m_distance);
-							Feature dir = new Feature(obj.m_direction);
-							AtomicInput fdist = new AtomicInput("dist",dist);
-							AtomicInput fdir = new AtomicInput("dir",dir);
-							ComplexInput f = new ComplexInput(flag_names_r_l[i]+String.valueOf(flag_dist_r_l[j]));
-							f.add(fdist);
-							f.add(fdir);
-							input.add(f);
+					
+					String [] flags_top_bot = {"flag t l", "flag t r","flag b l", "flag b r"};
+					String [] flag_names_top_bot = {"ftl","ftr","fbl","fbr"};
+					int [] flag_dist_top_bot = {50, 40,30,20,10};
+					
+					for(int i =0;i<flags_top_bot.length;i++){
+						for(int j =0; j<flag_dist_top_bot.length;j++){
+							if(obj.m_type.equals(flags_top_bot[i]) && ((FlagInfo) obj).m_num==flag_dist_top_bot[j]){
+								Feature dist = new Feature(obj.m_distance);
+								Feature dir = new Feature(obj.m_direction);
+								AtomicInput fdist = new AtomicInput("dist",dist);
+								AtomicInput fdir = new AtomicInput("dir",dir);
+								ComplexInput f = new ComplexInput(flag_names_top_bot[i]+String.valueOf(flag_dist_top_bot[j]));
+								f.add(fdist);
+								f.add(fdir);
+								input.add(f);
+							}
+						}
+					}
+					
+					String [] flags_r_l = {"flag r t", "flag r b","flag l t", "flag l b"};
+					String [] flag_names_r_l = {"frt","frb","flt","flb"};
+					int [] flag_dist_r_l = {30,20,10};
+					
+					for(int i =0;i<flags_r_l.length;i++){
+						for(int j =0; j<flag_dist_r_l.length;j++){
+							if(obj.m_type.equals(flags_r_l[i]) && ((FlagInfo) obj).m_num==flag_dist_r_l[j]){
+								Feature dist = new Feature(obj.m_distance);
+								Feature dir = new Feature(obj.m_direction);
+								AtomicInput fdist = new AtomicInput("dist",dist);
+								AtomicInput fdir = new AtomicInput("dir",dir);
+								ComplexInput f = new ComplexInput(flag_names_r_l[i]+String.valueOf(flag_dist_r_l[j]));
+								f.add(fdist);
+								f.add(fdir);
+								input.add(f);
+							}
 						}
 					}
 				}
+				
 			}
 			return input;
 		}else{
