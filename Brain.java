@@ -137,7 +137,7 @@ class Brain extends Thread implements SensorInput
     //converts a memory into a complex input
     private RoboCupInput Convert2Complex(Memory m) {
 		//
-    	boolean want_flags = true;
+    	boolean want_flags = false;
     	//get visualinfo
 		VisualInfo info = m.getVisualInfo();
 		//get objectInfo vector
