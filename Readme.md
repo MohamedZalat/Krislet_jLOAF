@@ -1,4 +1,4 @@
-This contains the file used to run a krislet agent in a 2d robocup game. 
+This contains the files used to run a krislet agent in a 2d robocup game. 
 
 Once the server and monitor are running - either use the teamstart.bat file and 10 agents will be added to the game
 
