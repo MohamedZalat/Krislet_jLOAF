@@ -47,7 +47,8 @@ class Brain extends Thread implements SensorInput
 	
 	//add agent
 	CaseBase cb = CaseBase.load(cbname);
-	agent = new RoboCupAgent(cb);
+	CaseBase processed_cb = CaseBase.preProcess(cb);
+	agent = new RoboCupAgent(processed_cb);
 	agent.setSim(matchType);
 	
 	start();
