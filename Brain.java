@@ -22,6 +22,10 @@ import org.jLOAF.inputs.ComplexInput;
 import org.jLOAF.inputs.Feature;
 import org.jLOAF.inputs.Input;
 
+import AgentModules.RoboCupAction;
+import AgentModules.RoboCupAgent;
+import AgentModules.RoboCupInput;
+
 class Brain extends Thread implements SensorInput
 {
     //---------------------------------------------------------------------------
@@ -47,8 +51,9 @@ class Brain extends Thread implements SensorInput
 	
 	//add agent
 	CaseBase cb = CaseBase.load(cbname);
-	CaseBase processed_cb = CaseBase.preProcess(cb);
-	agent = new RoboCupAgent(processed_cb);
+	//Sampling s = new Sampling();
+	//CaseBase processed_cb = s.filter(cb);
+	agent = new RoboCupAgent(cb);
 	agent.setSim(matchType);
 	
 	start();
