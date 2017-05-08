@@ -331,7 +331,7 @@ class Krislet implements SendCommand
     private Pattern message_pattern = Pattern.compile("^\\((\\w+?)\\s.*");
     private Pattern hear_pattern = Pattern.compile("^\\(hear\\s(\\w+?)\\s(\\w+?)\\s(.*)\\).*");
     private static String m_matching="default";//how the brain performs matching
-    private static String cb ="cb_react_no_flags_ls.cb";
+    private static String cb ="cb_react_all_flags_rs_new.cb";
     //private Pattern coach_pattern = Pattern.compile("coach");
     // constants
     private static final int	MSG_SIZE = 4096;	// Size of socket buffer
