@@ -187,6 +187,7 @@ class Brain extends Thread implements SensorInput
 					input.add(goal_l);
 				}
 				if (want_flags){
+					ComplexInput allflags = new ComplexInput("flags"); 
 					String [] flags = {"flag c b", "flag l b","flag r b", "flag c t","flag l t", "flag r t", "flag c", "flag p l t", "flag p l c", "flag p l b", "flag p r t", "flag p r c", "flag p r b" };
 					String [] flag_names = {"fcb", "flb","frb", "fct","flt", "frt", "fc","fplt", "fplc", "fplb", "fprt", "fprc", "fprb"}; 
 					
@@ -199,7 +200,7 @@ class Brain extends Thread implements SensorInput
 							ComplexInput f = new ComplexInput(flag_names[i]);
 							f.add(fdist);
 							f.add(fdir);
-							input.add(f);
+							allflags.add(f);
 						}
 					}
 					
@@ -217,7 +218,7 @@ class Brain extends Thread implements SensorInput
 								ComplexInput f = new ComplexInput(flag_names_top_bot[i]+String.valueOf(flag_dist_top_bot[j]));
 								f.add(fdist);
 								f.add(fdir);
-								input.add(f);
+								allflags.add(f);
 							}
 						}
 					}
@@ -236,10 +237,11 @@ class Brain extends Thread implements SensorInput
 								ComplexInput f = new ComplexInput(flag_names_r_l[i]+String.valueOf(flag_dist_r_l[j]));
 								f.add(fdist);
 								f.add(fdir);
-								input.add(f);
+								allflags.add(f);
 							}
 						}
 					}
+					input.add(allflags);
 				}
 				
 			}
