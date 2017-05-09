@@ -154,38 +154,46 @@ class Brain extends Thread implements SensorInput
 			
 			for(ObjectInfo obj: m_objects){
 				//add ball info
+				
 				if(obj.m_type.equals("ball")){
+					ComplexInput ball = new ComplexInput("ball");
 					Feature dist = new Feature(obj.m_distance);
 					Feature dir = new Feature(obj.m_direction);
 					AtomicInput b_dist = new AtomicInput("dist",dist);
 					AtomicInput b_dir = new AtomicInput("dir",dir);
-					ComplexInput ball = new ComplexInput("ball");
 					ball.add(b_dist);
 					ball.add(b_dir);
 					input.add(ball);
 				}
+				
 				//add goal r info
+				
 				if(obj.m_type.equals("goal r") && m_side == 'l'){
+					ComplexInput goal_r = new ComplexInput("goal r");
 					Feature dist = new Feature(obj.m_distance);
 					Feature dir = new Feature(obj.m_direction);
 					AtomicInput g_dist = new AtomicInput("dist",dist);
 					AtomicInput g_dir = new AtomicInput("dir",dir);
-					ComplexInput goal_r = new ComplexInput("goal r");
 					goal_r.add(g_dist);
 					goal_r.add(g_dir);
 					input.add(goal_r);
 				}
-				//add goal l info  
+				
+				
+				//add goal l info
+				
 				if(obj.m_type.equals("goal l") && m_side == 'r'){
+					ComplexInput goal_l = new ComplexInput("goal l");
 					Feature dist = new Feature(obj.m_distance);
 					Feature dir = new Feature(obj.m_direction);
 					AtomicInput g_dist = new AtomicInput("dist",dist);
 					AtomicInput g_dir = new AtomicInput("dir",dir);
-					ComplexInput goal_l = new ComplexInput("goal l");
 					goal_l.add(g_dist);
 					goal_l.add(g_dir);
 					input.add(goal_l);
 				}
+				
+				
 				if (want_flags){
 					ComplexInput allflags = new ComplexInput("flags"); 
 					String [] flags = {"flag c b", "flag l b","flag r b", "flag c t","flag l t", "flag r t", "flag c", "flag p l t", "flag p l c", "flag p l b", "flag p r t", "flag p r c", "flag p r b" };
