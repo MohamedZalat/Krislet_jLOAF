@@ -71,10 +71,11 @@ class Brain extends Thread implements SensorInput
 		Input input = this.Convert2Complex(m_memory);
 		//Input input = ((RoboCupPerception)agent.getP()).sense(m_memory);
 		if(input!=null){
-			Action action = agent.getR().selectAction(input);
+//			Action action = agent.getR().selectAction(input);
+//			agent.run(input);
 
 			//cast to RoboCupAction
-			RoboCupAction a = (RoboCupAction) action;
+			RoboCupAction a = agent.run(input);
 
 			//cases
 			if(a.getName().equals("turn")){
