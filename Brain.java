@@ -22,6 +22,12 @@ import org.jLOAF.inputs.ComplexInput;
 import org.jLOAF.inputs.Feature;
 import org.jLOAF.inputs.Input;
 import org.jLOAF.preprocessing.filter.casebasefilter.Sampling;
+import org.jLOAF.sim.SimilarityMetricStrategy;
+import org.jLOAF.sim.atomic.EuclideanDistance;
+import org.jLOAF.sim.complex.GreedyMunkrezMatching;
+import org.jLOAF.sim.complex.Mean;
+import org.jLOAF.sim.complex.WeightedMean;
+import org.jLOAF.weights.SimilarityWeights;
 
 import AgentModules.RoboCupAction;
 import AgentModules.RoboCupAgent;
@@ -149,20 +155,36 @@ class Brain extends Thread implements SensorInput
     	//get visualinfo
 		VisualInfo info = m.getVisualInfo();
 		//get objectInfo vector
+		
+		//similarityMetrics
+		//atomic
+		SimilarityMetricStrategy Atomic_strat = new EuclideanDistance();
+		//complex
+		SimilarityMetricStrategy ballGoal_strat = new Mean();
+		SimilarityMetricStrategy flag_strat = new GreedyMunkrezMatching();
+
+		//weights
+		SimilarityWeights sim_weights = new SimilarityWeights(1.0);
+		sim_weights.setFeatureWeight("ball", 10);
+		sim_weights.setFeatureWeight("goal r", 10);
+		sim_weights.setFeatureWeight("goal l", 10); 
+
+		SimilarityMetricStrategy RoboCup_strat = new WeightedMean(sim_weights);
+				
 		if(info!=null){
 			Vector<ObjectInfo> m_objects = info.m_objects;
 			
-			RoboCupInput input = new RoboCupInput("SenseEnvironment");
+			RoboCupInput input = new RoboCupInput("SenseEnvironment", RoboCup_strat);
 			
 			for(ObjectInfo obj: m_objects){
 				//add ball info
 				
 				if(obj.m_type.equals("ball")){
-					ComplexInput ball = new ComplexInput("ball");
+					ComplexInput ball = new ComplexInput("ball", ballGoal_strat);
 					Feature dist = new Feature(obj.m_distance);
 					Feature dir = new Feature(obj.m_direction);
-					AtomicInput b_dist = new AtomicInput("dist",dist);
-					AtomicInput b_dir = new AtomicInput("dir",dir);
+					AtomicInput b_dist = new AtomicInput("ball_dist",dist, Atomic_strat);
+					AtomicInput b_dir = new AtomicInput("ball_dir",dir, Atomic_strat);
 					ball.add(b_dist);
 					ball.add(b_dir);
 					input.add(ball);
@@ -171,11 +193,11 @@ class Brain extends Thread implements SensorInput
 				//add goal r info
 				
 				if(obj.m_type.equals("goal r") && m_side == 'l'){
-					ComplexInput goal_r = new ComplexInput("goal r");
+					ComplexInput goal_r = new ComplexInput("goal r", ballGoal_strat);
 					Feature dist = new Feature(obj.m_distance);
 					Feature dir = new Feature(obj.m_direction);
-					AtomicInput g_dist = new AtomicInput("dist",dist);
-					AtomicInput g_dir = new AtomicInput("dir",dir);
+					AtomicInput g_dist = new AtomicInput("goal_dist",dist, Atomic_strat);
+					AtomicInput g_dir = new AtomicInput("goal_dir",dir, Atomic_strat);
 					goal_r.add(g_dist);
 					goal_r.add(g_dir);
 					input.add(goal_r);
@@ -185,11 +207,11 @@ class Brain extends Thread implements SensorInput
 				//add goal l info
 				
 				if(obj.m_type.equals("goal l") && m_side == 'r'){
-					ComplexInput goal_l = new ComplexInput("goal l");
+					ComplexInput goal_l = new ComplexInput("goal l", ballGoal_strat);
 					Feature dist = new Feature(obj.m_distance);
 					Feature dir = new Feature(obj.m_direction);
-					AtomicInput g_dist = new AtomicInput("dist",dist);
-					AtomicInput g_dir = new AtomicInput("dir",dir);
+					AtomicInput g_dist = new AtomicInput("goal_dist",dist, Atomic_strat);
+					AtomicInput g_dir = new AtomicInput("goal_dir",dir, Atomic_strat);
 					goal_l.add(g_dist);
 					goal_l.add(g_dir);
 					input.add(goal_l);
@@ -197,7 +219,7 @@ class Brain extends Thread implements SensorInput
 				
 				
 				if (want_flags){
-					ComplexInput allflags = new ComplexInput("flags"); 
+					ComplexInput allflags = new ComplexInput("flags", flag_strat); 
 					String [] flags = {"flag c b", "flag l b","flag r b", "flag c t","flag l t", "flag r t", "flag c", "flag p l t", "flag p l c", "flag p l b", "flag p r t", "flag p r c", "flag p r b" };
 					String [] flag_names = {"fcb", "flb","frb", "fct","flt", "frt", "fc","fplt", "fplc", "fplb", "fprt", "fprc", "fprb"}; 
 					
@@ -205,9 +227,9 @@ class Brain extends Thread implements SensorInput
 						if(obj.m_type.equals(flags[i]) && ((FlagInfo) obj).m_num==0){
 							Feature dist = new Feature(obj.m_distance);
 							Feature dir = new Feature(obj.m_direction);
-							AtomicInput fdist = new AtomicInput("dist",dist);
-							AtomicInput fdir = new AtomicInput("dir",dir);
-							ComplexInput f = new ComplexInput(flag_names[i]);
+							AtomicInput fdist = new AtomicInput(flag_names[i]+"_dist",dist, Atomic_strat);
+							AtomicInput fdir = new AtomicInput(flag_names[i]+"_dir",dir, Atomic_strat);
+							ComplexInput f = new ComplexInput(flag_names[i], ballGoal_strat);
 							f.add(fdist);
 							f.add(fdir);
 							allflags.add(f);
@@ -223,9 +245,9 @@ class Brain extends Thread implements SensorInput
 							if(obj.m_type.equals(flags_top_bot[i]) && ((FlagInfo) obj).m_num==flag_dist_top_bot[j]){
 								Feature dist = new Feature(obj.m_distance);
 								Feature dir = new Feature(obj.m_direction);
-								AtomicInput fdist = new AtomicInput("dist",dist);
-								AtomicInput fdir = new AtomicInput("dir",dir);
-								ComplexInput f = new ComplexInput(flag_names_top_bot[i]+String.valueOf(flag_dist_top_bot[j]));
+								AtomicInput fdist = new AtomicInput(flag_names_top_bot[i]+String.valueOf(flag_dist_top_bot[j])+"_dist",dist, Atomic_strat);
+								AtomicInput fdir = new AtomicInput(flag_names_top_bot[i]+String.valueOf(flag_dist_top_bot[j])+"_dir",dir, Atomic_strat);
+								ComplexInput f = new ComplexInput(flag_names_top_bot[i]+String.valueOf(flag_dist_top_bot[j]), ballGoal_strat);
 								f.add(fdist);
 								f.add(fdir);
 								allflags.add(f);
@@ -242,9 +264,9 @@ class Brain extends Thread implements SensorInput
 							if(obj.m_type.equals(flags_r_l[i]) && ((FlagInfo) obj).m_num==flag_dist_r_l[j]){
 								Feature dist = new Feature(obj.m_distance);
 								Feature dir = new Feature(obj.m_direction);
-								AtomicInput fdist = new AtomicInput("dist",dist);
-								AtomicInput fdir = new AtomicInput("dir",dir);
-								ComplexInput f = new ComplexInput(flag_names_r_l[i]+String.valueOf(flag_dist_r_l[j]));
+								AtomicInput fdist = new AtomicInput(flag_names_r_l[i]+String.valueOf(flag_dist_r_l[j])+"_dist",dist, Atomic_strat);
+								AtomicInput fdir = new AtomicInput(flag_names_r_l[i]+String.valueOf(flag_dist_r_l[j])+"_dir",dir, Atomic_strat);
+								ComplexInput f = new ComplexInput(flag_names_r_l[i]+String.valueOf(flag_dist_r_l[j]), ballGoal_strat);
 								f.add(fdist);
 								f.add(fdir);
 								allflags.add(f);
