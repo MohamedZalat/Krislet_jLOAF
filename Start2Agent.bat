@@ -1,5 +1,5 @@
-start java -cp jLOAF.jar;.;jLOAF-Robocup.jar;. Krislet -team mean -cb cb_react_all_flags_ls_new.cb
+start java -cp jLOAF.jar;.;jLOAF-Robocup.jar;. Krislet -team Carleton -cb Carleton.cb
 ping localhost
-start java -cp jLOAF.jar;.;jLOAF-Robocup.jar;. Krislet -team Greedy -cb cb_react_all_flags_rs_new.cb
+start java -cp jLOAF.jar;.;jLOAF-Robocup.jar;. Krislet -team University -cb University.cb
 ping localhost
 

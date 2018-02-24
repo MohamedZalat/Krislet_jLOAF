@@ -16,13 +16,25 @@ import java.util.Vector;
 import java.util.regex.*;
 
 import org.jLOAF.action.Action;
+import org.jLOAF.action.AtomicAction;
+import org.jLOAF.casebase.Case;
 import org.jLOAF.casebase.CaseBase;
 import org.jLOAF.inputs.AtomicInput;
 import org.jLOAF.inputs.ComplexInput;
 import org.jLOAF.inputs.Feature;
 import org.jLOAF.inputs.Input;
+import org.jLOAF.inputs.StateBasedInput;
+import org.jLOAF.preprocessing.filter.CaseBaseFilter;
+import org.jLOAF.preprocessing.filter.casebasefilter.NoFilter;
 import org.jLOAF.preprocessing.filter.casebasefilter.Sampling;
+import org.jLOAF.preprocessing.filter.casebasefilter.UnderSampling;
+import org.jLOAF.reasoning.TBReasoning;
+import org.jLOAF.reasoning.WeightedKNN;
+import org.jLOAF.sim.AtomicSimilarityMetricStrategy;
+import org.jLOAF.sim.ComplexSimilarityMetricStrategy;
 import org.jLOAF.sim.SimilarityMetricStrategy;
+import org.jLOAF.sim.StateBasedSimilarity;
+import org.jLOAF.sim.StateBased.KOrderedSimilarity;
 import org.jLOAF.sim.atomic.EuclideanDistance;
 import org.jLOAF.sim.complex.GreedyMunkrezMatching;
 import org.jLOAF.sim.complex.Mean;
@@ -54,14 +66,24 @@ class Brain extends Thread implements SensorInput
 	m_side = side;
 	// m_number = number;
 	m_playMode = playMode;
+	m_latest = null;
 	
 	
-	//add agent
+	//load casebase
 	CaseBase cb = CaseBase.load(cbname);
-	//Sampling s = new Sampling();
-	//CaseBase processed_cb = s.filter(cb);
+	
+	//filter
+	//CaseBaseFilter s = new NoFilter(null);
+	//CaseBaseFilter s = new UnderSampling(null);
+	CaseBaseFilter s = new Sampling(null);
+	CaseBase processed_cb = s.filter(cb);
+	
+	//create agent
 	agent = new RoboCupAgent();
-	agent.train(cb);
+	
+	//set reasoning
+	agent.setR(new WeightedKNN(10,processed_cb));
+	//agent.setR(new TBReasoning(cb));
 	
 	start();
     }
@@ -75,7 +97,7 @@ class Brain extends Thread implements SensorInput
 	while( !m_timeOver )
 	    {	
 		//get input and action - make decision
-		Input input = this.Convert2Complex(m_memory);
+		Input input = this.Convert2Complex(m_memory, m_latest);
 		//Input input = ((RoboCupPerception)agent.getP()).sense(m_memory);
 		if(input!=null){
 //			Action action = agent.getR().selectAction(input);
@@ -83,24 +105,26 @@ class Brain extends Thread implements SensorInput
 
 			//cast to RoboCupAction
 			RoboCupAction a = agent.run(input);
-
+			
 			//cases
 			if(a.getName().equals("turn")){
 				//get the angle of the feature
 				
-				m_krislet.turn(a.getFeature(0).getValue());
-				System.out.println("turn "+ a.getFeature(0).getValue());
+				m_krislet.turn(((AtomicAction)a.get("turnAngle")).getFeature().getValue());
+				System.out.println("turn "+ ((AtomicAction)a.get("turnAngle")).getFeature().getValue());
 				m_memory.waitForNewInfo();
 			}
 			else if(a.getName().equals("dash")){	
 				//get the power of the dash
-				System.out.println("dash "+ a.getFeature(0).getValue());
-				m_krislet.dash(a.getFeature(0).getValue());
+				System.out.println("dash "+ ((AtomicAction)a.get("dashPower")).getFeature().getValue());
+				m_krislet.dash(((AtomicAction)a.get("dashPower")).getFeature().getValue());
 			}
 			else if(a.getName().equals("kick")){
-				System.out.println("kick "+ a.getFeature(0).getValue() + " " +  a.getFeature(1).getValue());
-				m_krislet.kick(a.getFeature(0).getValue(), a.getFeature(1).getValue());
+				System.out.println("kick "+ ((AtomicAction)a.get("kickPower")).getFeature().getValue() + " " +  ((AtomicAction)a.get("kickAngle")).getFeature().getValue());
+				m_krislet.kick(((AtomicAction)a.get("kickPower")).getFeature().getValue(), ((AtomicAction)a.get("kickAngle")).getFeature().getValue());
 			}
+			
+			m_latest = new Case(input, a);
 
 		}else{
 			m_memory.waitForNewInfo();
@@ -149,31 +173,32 @@ class Brain extends Thread implements SensorInput
     }
     //----------------------------------------------------------------------------
     //converts a memory into a complex input
-    private RoboCupInput Convert2Complex(Memory m) {
+    private Input Convert2Complex(Memory m, Case latest) {
 		//
-    	boolean want_flags = true;
+    	boolean want_flags = false;
     	//get visualinfo
 		VisualInfo info = m.getVisualInfo();
 		//get objectInfo vector
 		
 		//similarityMetrics
 		//atomic
-		SimilarityMetricStrategy Atomic_strat = new EuclideanDistance();
+		AtomicSimilarityMetricStrategy Atomic_strat = new EuclideanDistance();
 		//complex
-		SimilarityMetricStrategy ballGoal_strat = new Mean();
-		SimilarityMetricStrategy flag_strat = new GreedyMunkrezMatching();
+		ComplexSimilarityMetricStrategy ballGoal_strat = new Mean();
+		ComplexSimilarityMetricStrategy flag_strat = new GreedyMunkrezMatching();
 
 		//weights
-		SimilarityWeights sim_weights = new SimilarityWeights(1.0);
-		sim_weights.setFeatureWeight("ball", 10);
-		sim_weights.setFeatureWeight("goal r", 10);
-		sim_weights.setFeatureWeight("goal l", 10); 
+		SimilarityWeights sim_weights = new SimilarityWeights();
+		sim_weights.setFeatureWeight("ball", 1);
+		sim_weights.setFeatureWeight("goal r", 1);
+		sim_weights.setFeatureWeight("goal l", 1); 
 
-		SimilarityMetricStrategy RoboCup_strat = new WeightedMean(sim_weights);
+		ComplexSimilarityMetricStrategy RoboCup_strat = new WeightedMean(sim_weights);
+		StateBasedSimilarity stateBasedsim = new KOrderedSimilarity(1);
 				
 		if(info!=null){
 			Vector<ObjectInfo> m_objects = info.m_objects;
-			
+			StateBasedInput statebasedInput = new StateBasedInput("StateBasedSim",stateBasedsim);
 			RoboCupInput input = new RoboCupInput("SenseEnvironment", RoboCup_strat);
 			
 			for(ObjectInfo obj: m_objects){
@@ -277,7 +302,9 @@ class Brain extends Thread implements SensorInput
 				}
 				
 			}
-			return input;
+			statebasedInput.setInput(input);
+			statebasedInput.setCase(latest);
+			return statebasedInput;
 		}else{
 			System.out.println("Error :There is no visual information");
 			return null;
@@ -294,5 +321,6 @@ class Brain extends Thread implements SensorInput
     volatile private boolean		m_timeOver;
     private String                      m_playMode;
     private RoboCupAgent agent; //robocup agent
+    private Case m_latest;
     
 }
