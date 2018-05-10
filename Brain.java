@@ -28,6 +28,7 @@ import org.jLOAF.preprocessing.filter.CaseBaseFilter;
 import org.jLOAF.preprocessing.filter.casebasefilter.NoFilter;
 import org.jLOAF.preprocessing.filter.casebasefilter.Sampling;
 import org.jLOAF.preprocessing.filter.casebasefilter.UnderSampling;
+import org.jLOAF.reasoning.BayesianReasoner;
 import org.jLOAF.reasoning.TBReasoning;
 import org.jLOAF.reasoning.WeightedKNN;
 import org.jLOAF.sim.AtomicSimilarityMetricStrategy;
@@ -70,26 +71,33 @@ class Brain extends Thread implements SensorInput
 	
 	
 	//load casebase
+	System.out.println("Loading CaseBase...");
 	CaseBase cb = CaseBase.load(cbname);
+	System.out.println("Finished Loading CaseBase...");
 	
 	//filter
+	System.out.println(cb.getSize());
 	//CaseBaseFilter s = new NoFilter(null);
 	//CaseBaseFilter s = new UnderSampling(null);
-	CaseBaseFilter s = new Sampling(null);
-	CaseBase processed_cb = s.filter(cb);
-	
+	//CaseBaseFilter s = new Sampling(null);
+	//CaseBase processed_cb = s.filter(cb);
+	//System.out.println(processed_cb.getSize());
 	//create agent
+	System.out.println("Creating Agent...");
 	agent = new RoboCupAgent();
 	
 	//set reasoning
-	agent.setR(new WeightedKNN(10,processed_cb));
+	System.out.println("Setting Reasoner...");
+	//agent.setR(new WeightedKNN(5,cb));
 	//agent.setR(new TBReasoning(cb));
+	agent.setR(new BayesianReasoner(cb, "bayesian.txt"));
 	
 	start();
     }
 
     public void run()
     {
+    ObjectInfo object;
 	// first put it somewhere on my side
 	if(Pattern.matches("^before_kick_off.*",m_playMode))
 	    m_krislet.move( -Math.random()*52.5 , 34 - Math.random()*68.0 );
@@ -108,20 +116,64 @@ class Brain extends Thread implements SensorInput
 			
 			//cases
 			if(a.getName().equals("turn")){
+				System.out.println("turn");
 				//get the angle of the feature
 				
-				m_krislet.turn(((AtomicAction)a.get("turnAngle")).getFeature().getValue());
-				System.out.println("turn "+ ((AtomicAction)a.get("turnAngle")).getFeature().getValue());
+				//m_krislet.turn(((AtomicAction)a.get("turnAngle")).getFeature().getValue());
+				object = m_memory.getObject("ball");
+				if( object == null )
+			    {
+				// If you don't know where is ball then find it
+				m_krislet.turn(40);
 				m_memory.waitForNewInfo();
+			    }
+				else if( object.m_distance > 1.0 )
+			    {
+				// If ball is too far then
+				// turn to ball or 
+				// if we have correct direction then go to ball
+				m_krislet.turn(object.m_direction);
+				
+				//System.out.println("turn "+ ((AtomicAction)a.get("turnAngle")).getFeature().getValue());
+			    }else if( object.m_distance <= 1.0){
+			    	m_krislet.turn(40);
+			    }
 			}
-			else if(a.getName().equals("dash")){	
+			else if(a.getName().equals("dash")){
+				System.out.println("dash");
 				//get the power of the dash
-				System.out.println("dash "+ ((AtomicAction)a.get("dashPower")).getFeature().getValue());
-				m_krislet.dash(((AtomicAction)a.get("dashPower")).getFeature().getValue());
+				//System.out.println("dash "+ ((AtomicAction)a.get("dashPower")).getFeature().getValue());
+				//m_krislet.dash(((AtomicAction)a.get("dashPower")).getFeature().getValue());
+				object = m_memory.getObject("ball");
+				if( object == null )
+			    {
+					m_krislet.dash(100);
+				m_memory.waitForNewInfo();
+			    }else{
+				
+				m_krislet.dash(10*object.m_distance);
+			    }
+				
 			}
 			else if(a.getName().equals("kick")){
-				System.out.println("kick "+ ((AtomicAction)a.get("kickPower")).getFeature().getValue() + " " +  ((AtomicAction)a.get("kickAngle")).getFeature().getValue());
-				m_krislet.kick(((AtomicAction)a.get("kickPower")).getFeature().getValue(), ((AtomicAction)a.get("kickAngle")).getFeature().getValue());
+				System.out.println("kick");
+				//System.out.println("kick "+ ((AtomicAction)a.get("kickPower")).getFeature().getValue() + " " +  ((AtomicAction)a.get("kickAngle")).getFeature().getValue());
+				//m_krislet.kick(((AtomicAction)a.get("kickPower")).getFeature().getValue(), ((AtomicAction)a.get("kickAngle")).getFeature().getValue());
+				if( m_side == 'l' ){
+				    object = m_memory.getObject("goal r");
+				}
+				else{
+				    object = m_memory.getObject("goal l");
+				}
+				
+				if( object == null )
+			    {
+				System.out.println("Can't see goal");
+				m_krislet.kick(100,0);
+				m_memory.waitForNewInfo();
+			    }
+			else
+				m_krislet.kick(100, object.m_direction);
 			}
 			
 			m_latest = new Case(input, a);
@@ -217,12 +269,12 @@ class Brain extends Thread implements SensorInput
 				
 				//add goal r info
 				
-				if(obj.m_type.equals("goal r") && m_side == 'l'){
+				if(obj.m_type.equals("goal r")){
 					ComplexInput goal_r = new ComplexInput("goal r", ballGoal_strat);
 					Feature dist = new Feature(obj.m_distance);
 					Feature dir = new Feature(obj.m_direction);
-					AtomicInput g_dist = new AtomicInput("goal_dist",dist, Atomic_strat);
-					AtomicInput g_dir = new AtomicInput("goal_dir",dir, Atomic_strat);
+					AtomicInput g_dist = new AtomicInput("goal_distR",dist, Atomic_strat);
+					AtomicInput g_dir = new AtomicInput("goal_dirR",dir, Atomic_strat);
 					goal_r.add(g_dist);
 					goal_r.add(g_dir);
 					input.add(goal_r);
@@ -231,12 +283,12 @@ class Brain extends Thread implements SensorInput
 				
 				//add goal l info
 				
-				if(obj.m_type.equals("goal l") && m_side == 'r'){
+				if(obj.m_type.equals("goal l")){
 					ComplexInput goal_l = new ComplexInput("goal l", ballGoal_strat);
 					Feature dist = new Feature(obj.m_distance);
 					Feature dir = new Feature(obj.m_direction);
-					AtomicInput g_dist = new AtomicInput("goal_dist",dist, Atomic_strat);
-					AtomicInput g_dir = new AtomicInput("goal_dir",dir, Atomic_strat);
+					AtomicInput g_dist = new AtomicInput("goal_distL",dist, Atomic_strat);
+					AtomicInput g_dir = new AtomicInput("goal_dirL",dir, Atomic_strat);
 					goal_l.add(g_dist);
 					goal_l.add(g_dir);
 					input.add(goal_l);
