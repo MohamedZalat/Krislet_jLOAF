@@ -95,102 +95,71 @@ class Brain extends Thread implements SensorInput
 	start();
     }
 
-    public void run()
-    {
-    ObjectInfo object;
-	// first put it somewhere on my side
-	if(Pattern.matches("^before_kick_off.*",m_playMode))
-	    m_krislet.move( -Math.random()*52.5 , 34 - Math.random()*68.0 );
+    public void run() {
+    	int turnAngle = 10;
+    	int turnDirection = 1;
+    	
+    	ObjectInfo object;
+    	
+    	// first put it somewhere on my side
+    	if(Pattern.matches("^before_kick_off.*",m_playMode))
+    		m_krislet.move( -Math.random()*52.5 , 34 - Math.random()*68.0 );
 
-	while( !m_timeOver )
-	    {	
-		//get input and action - make decision
-		Input input = this.Convert2Complex(m_memory, m_latest);
-		//Input input = ((RoboCupPerception)agent.getP()).sense(m_memory);
-		if(input!=null){
-//			Action action = agent.getR().selectAction(input);
-//			agent.run(input);
-
-			//cast to RoboCupAction
-			RoboCupAction a = agent.run(input);
-			
-			//cases
-			if(a.getName().equals("turn")){
-				System.out.println("turn");
-				//get the angle of the feature
-				
-				//m_krislet.turn(((AtomicAction)a.get("turnAngle")).getFeature().getValue());
-				object = m_memory.getObject("ball");
-				if( object == null )
-			    {
-				// If you don't know where is ball then find it
-				m_krislet.turn(40);
-				m_memory.waitForNewInfo();
-			    }
-				else if( object.m_distance > 1.0 )
-			    {
-				// If ball is too far then
-				// turn to ball or 
-				// if we have correct direction then go to ball
-				m_krislet.turn(object.m_direction);
-				
-				//System.out.println("turn "+ ((AtomicAction)a.get("turnAngle")).getFeature().getValue());
-			    }else if( object.m_distance <= 1.0){
-			    	m_krislet.turn(40);
-			    }
-			}
-			else if(a.getName().equals("dash")){
-				System.out.println("dash");
-				//get the power of the dash
-				//System.out.println("dash "+ ((AtomicAction)a.get("dashPower")).getFeature().getValue());
-				//m_krislet.dash(((AtomicAction)a.get("dashPower")).getFeature().getValue());
-				object = m_memory.getObject("ball");
-				if( object == null )
-			    {
-					m_krislet.dash(100);
-				m_memory.waitForNewInfo();
-			    }else{
-				
-				m_krislet.dash(10*object.m_distance);
-			    }
-				
-			}
-			else if(a.getName().equals("kick")){
-				System.out.println("kick");
-				//System.out.println("kick "+ ((AtomicAction)a.get("kickPower")).getFeature().getValue() + " " +  ((AtomicAction)a.get("kickAngle")).getFeature().getValue());
-				//m_krislet.kick(((AtomicAction)a.get("kickPower")).getFeature().getValue(), ((AtomicAction)a.get("kickAngle")).getFeature().getValue());
-				if( m_side == 'l' ){
-				    object = m_memory.getObject("goal r");
-				}
-				else{
-				    object = m_memory.getObject("goal l");
-				}
-				
-				if( object == null )
-			    {
-				System.out.println("Can't see goal");
-				m_krislet.kick(100,0);
-				m_memory.waitForNewInfo();
-			    }
-			else
-				m_krislet.kick(100, object.m_direction);
-			}
-			
-			m_latest = new Case(input, a);
-
-		}else{
-			m_memory.waitForNewInfo();
-		}
-		// sleep one step to ensure that we will not send
-				// two commands in one cycle.
-		try{
-		    Thread.sleep(2*SoccerParams.simulator_step);
-		}catch(Exception e){}
-		
-	    }
-	    
-	
-	m_krislet.bye();
+    	while( !m_timeOver ) {	
+    		//get input and action - make decision
+    		Input input = this.Convert2Complex(m_memory, m_latest);
+    		//Input input = ((RoboCupPerception)agent.getP()).sense(m_memory);
+    		
+    		if(input!=null){
+    			//			Action action = agent.getR().selectAction(input)
+    			//			agent.run(input);
+    			
+    			//cast to RoboCupAction
+    			RoboCupAction a = agent.run(input);
+    			
+    			// cases
+    			if (a.getName().equals("turn+")) {
+    				// m_krislet.turn(((AtomicAction)a.get("turnAngle")).getFeature().getValue());
+    				System.out.println("turn+");
+    				turnDirection = 1;
+    				m_krislet.turn(turnDirection * turnAngle);
+    			} else if (a.getName().equals("turn-")) {
+    				System.out.println("turn-");
+    				turnDirection = -1;
+    				m_krislet.turn(turnDirection * turnAngle);
+    			} else if (a.getName().equals("dash")) {
+    				System.out.println("dash");
+    				object = m_memory.getObject("ball");
+    				if (object == null) {
+    					m_krislet.dash(100);
+    				} else {
+    					m_krislet.dash(10*object.m_distance);
+    				}
+    			} else if (a.getName().equals("kick")) {
+    				System.out.println("kick");
+    				if( m_side == 'l' ) {
+						object = m_memory.getObject("goal r");
+					} else {
+						object = m_memory.getObject("goal l");
+					}
+    				if ( object == null ) {
+						System.out.println("Can't see goal");
+						m_krislet.kick(100,0);
+					} else {
+						m_krislet.kick(100, object.m_direction);
+					}
+    			}
+    			m_latest = new Case(input, a);
+    			m_memory.waitForNewInfo();
+    		}
+    		
+    		// sleep one step to ensure that we will not send
+			// two commands in one cycle.
+    		try{
+    			Thread.sleep(2*SoccerParams.simulator_step);
+    		}catch(Exception e){}
+    	}
+    	m_krislet.bye();
     }
 
 
