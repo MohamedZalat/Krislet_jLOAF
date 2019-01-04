@@ -36,6 +36,11 @@ import org.jLOAF.sim.ComplexSimilarityMetricStrategy;
 import org.jLOAF.sim.SimilarityMetricStrategy;
 import org.jLOAF.sim.StateBasedSimilarity;
 import org.jLOAF.sim.StateBased.KOrderedSimilarity;
+import org.jLOAF.sim.StateBased.KUnorderedActionSimilarity;
+import org.jLOAF.sim.StateBased.KUnorderedSimilarity;
+import org.jLOAF.sim.StateBased.OrderedSimilarity;
+import org.jLOAF.sim.StateBased.UnorderedSimilarity;
+import org.jLOAF.sim.StateBased.WeightedStateBasedSimilarity;
 import org.jLOAF.sim.atomic.EuclideanDistance;
 import org.jLOAF.sim.complex.GreedyMunkrezMatching;
 import org.jLOAF.sim.complex.Mean;
@@ -88,10 +93,16 @@ class Brain extends Thread implements SensorInput
 	
 	//set reasoning
 	System.out.println("Setting Reasoner...");
-	//agent.setR(new WeightedKNN(5,cb));
-	//agent.setR(new TBReasoning(cb));
-	agent.setR(new BayesianReasoner(cb, "bayesian.txt"));
+	//agent.setR(new WeightedKNN(50,cb));			// kordered, 50
+	//agent.setR(new WeightedKNN(1,cb));			// kordered_r
 	
+	agent.setR(new TBReasoning(cb));			// TB
+	//agent.setR(new BayesianReasoner(cb, "bayesian.txt"));
+	
+	//new KOrderedSimilarity(50);	// kordered
+	//new KOrderedSimilarity(1);	// kordered_r
+	//new KUnorderedSimilarity(50);	// kunordered
+		
 	start();
     }
 
