@@ -91,17 +91,51 @@ class Brain extends Thread implements SensorInput
 	System.out.println("Creating Agent...");
 	agent = new RoboCupAgent();
 	
+
+	// TB
 	//set reasoning
 	System.out.println("Setting Reasoner...");
-	//agent.setR(new WeightedKNN(50,cb));			// kordered, 50
-	//agent.setR(new WeightedKNN(1,cb));			// kordered_r
+	agent.setR(new TBReasoning(cb));
 	
-	agent.setR(new TBReasoning(cb));			// TB
-	//agent.setR(new BayesianReasoner(cb, "bayesian.txt"));
+	/*
+	//"weightedKNN","kordered"
+	//set reasoning
+	System.out.println("Setting Reasoner...");
+	int k = 50;			// Value of k for the kordered and kunordered tests
+	String st = "kordered";		// Needs to be a string for setting the similarity strategy
+	StateBasedSimilarity sim = (StateBasedSimilarity) StateBasedSimilarity.getSim(st);
+	for(Case c: cb.getCases()){
+		c.getInput().setSimilarityMetric(sim);
+	}
+	agent.setR(new WeightedKNN(k,cb));
+	*/
+
+	/*
+	//"weightedKNN","kunordered"
+	//set reasoning
+	System.out.println("Setting Reasoner...");
+	int k = 50;			// Value of k for the kordered and kunordered tests
+	String st = "kunordered";		// Needs to be a string for setting the similarity strategy
+	StateBasedSimilarity sim = (StateBasedSimilarity) StateBasedSimilarity.getSim(st);
+	for(Case c: cb.getCases()){
+		c.getInput().setSimilarityMetric(sim);
+	}
+	agent.setR(new WeightedKNN(k,cb));
+	*/
 	
-	//new KOrderedSimilarity(50);	// kordered
-	//new KOrderedSimilarity(1);	// kordered_r
-	//new KUnorderedSimilarity(50);	// kunordered
+	/*
+	//"weightedKNN","kordered_r"
+	//set reasoning
+	System.out.println("Setting Reasoner...");
+	int k = 50;			// Value of k for the kordered and kunordered tests
+	String st = "kordered_r";		// Needs to be a string for setting the similarity strategy
+	StateBasedSimilarity sim = (StateBasedSimilarity) StateBasedSimilarity.getSim(st);
+	for(Case c: cb.getCases()){
+		c.getInput().setSimilarityMetric(sim);
+	}
+	agent.setR(new WeightedKNN(k,cb));
+	*/
+
 		
 	start();
     }
