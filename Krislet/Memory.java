@@ -1,3 +1,4 @@
+package Krislet;
 //
 //	File:			Memory.java
 //	Author:		Krzysztof Langner

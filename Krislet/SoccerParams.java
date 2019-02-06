@@ -1,3 +1,4 @@
+package Krislet;
 //
 //	File:			SoccerParams.java
 //	Author:		Krzysztof Langner

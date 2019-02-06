@@ -1,3 +1,4 @@
+package Krislet;
 //
 //	File:			ObjectInfo.java
 //	Author:		Krzysztof Langner

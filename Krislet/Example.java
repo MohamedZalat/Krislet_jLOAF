@@ -1,3 +1,5 @@
+package Krislet;
+
 import org.jLOAF.casebase.CaseBase;
 
 public class Example {

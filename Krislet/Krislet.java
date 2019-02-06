@@ -1,4 +1,6 @@
+package Krislet;
 //
+
 //	File:			Krislet.java
 //	Author:		Krzysztof Langner
 //	Date:			1997/04/28

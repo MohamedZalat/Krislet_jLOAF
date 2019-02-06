@@ -1,3 +1,4 @@
+package Krislet;
 //
 //	File:			SoccerInterfaces.java
 //	Author:		Krzysztof Langner
