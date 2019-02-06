@@ -206,43 +206,52 @@ class Brain extends Thread implements SensorInput
     				goalDistance = object.m_distance;
     			}
     			
-    			int expertAction = this.expert.getAction(ballVisible, ballDirection, ballDistance, goalVisible, goalDirection, goalDistance);    			
+    			int expertAction = this.expert.getAction(ballVisible, ballDirection, ballDistance, goalVisible, goalDirection, goalDistance);
+    			int studentAction = 0;
     			
     			// cases
     			if (a.getName().equals("turn+")) {
-    				// m_krislet.turn(((AtomicAction)a.get("turnAngle")).getFeature().getValue());
-    				System.out.println("turn+");
-    				turnDirection = 1;
-    				m_krislet.turn(turnDirection * turnAngle);
+    				studentAction = Behaviour.turnP;
+    				//System.out.println("turn+");
+    				//turnDirection = 1;
+    				//m_krislet.turn(turnDirection * turnAngle);
     			} else if (a.getName().equals("turn-")) {
-    				System.out.println("turn-");
-    				turnDirection = -1;
-    				m_krislet.turn(turnDirection * turnAngle);
+    				studentAction = Behaviour.turnN;
+    				//System.out.println("turn-");
+    				//turnDirection = -1;
+    				//m_krislet.turn(turnDirection * turnAngle);
     			} else if (a.getName().equals("dash")) {
-    				System.out.println("dash");
-    				object = m_memory.getObject("ball");
-    				if (object == null) {
-    					m_krislet.dash(100);
-    				} else {
-    					m_krislet.dash(10*object.m_distance);
-    				}
+    				studentAction = Behaviour.dash;
+    				//System.out.println("dash");
+    				//object = m_memory.getObject("ball");
+    				//if (object == null) {
+    				//	m_krislet.dash(100);
+    				//} else {
+    				//	m_krislet.dash(10*object.m_distance);
+    				//}
     			} else if (a.getName().equals("kick")) {
-    				System.out.println("kick");
-    				if( m_side == 'l' ) {
-						object = m_memory.getObject("goal r");
-					} else {
-						object = m_memory.getObject("goal l");
-					}
-    				if ( object == null ) {
-						System.out.println("Can't see goal");
-						m_krislet.kick(100,0);
-					} else {
-						m_krislet.kick(100, object.m_direction);
-					}
+    				studentAction = Behaviour.kick;
+    				//System.out.println("kick");
+    				//if( m_side == 'l' ) {
+    				//	object = m_memory.getObject("goal r");
+					//} else {
+					//	object = m_memory.getObject("goal l");
+					//}
+    				//if ( object == null ) {
+					//	System.out.println("Can't see goal");
+					//	m_krislet.kick(100,0);
+					//} else {
+					//	m_krislet.kick(100, object.m_direction);
+					//}
     			}
     			m_latest = new Case(input, a);
     			m_memory.waitForNewInfo();
     		}
+    		
+    		// TODO Execute the action
+    		
+    		
+    		// TODO Log the results
     		
     		// sleep one step to ensure that we will not send
 			// two commands in one cycle.
