@@ -52,6 +52,10 @@ import org.jLOAF.weights.SimilarityWeights;
 import AgentModules.RoboCupAction;
 import AgentModules.RoboCupAgent;
 import AgentModules.RoboCupInput;
+import Behaviour.Behaviour;
+import Behaviour.FiniteTurnOracle;
+import Behaviour.KickSpinOracle;
+import Behaviour.TurnDirectionOracle;
 
 class Brain extends Thread implements SensorInput
 {
@@ -137,6 +141,11 @@ class Brain extends Thread implements SensorInput
 	}
 	agent.setR(new WeightedKNN(k,cb));
 	*/
+	
+	// Setup the expert
+	this.expert = new FiniteTurnOracle();
+	//this.expert = new KickSpinOracle();
+	//this.expert = new TurnDirectionOracle();
 
 		
 	start();
@@ -390,5 +399,6 @@ class Brain extends Thread implements SensorInput
     private String                      m_playMode;
     private RoboCupAgent agent; //robocup agent
     private Case m_latest;
+    private Behaviour expert;
     
 }
