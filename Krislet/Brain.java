@@ -162,6 +162,13 @@ class Brain extends Thread implements SensorInput
     		m_krislet.move( -Math.random()*52.5 , 34 - Math.random()*68.0 );
 
     	while( !m_timeOver ) {	
+    		boolean ballVisible;
+    		boolean goalVisible;
+    		double ballDirection;
+    		double ballDistance;
+    		double goalDirection;
+    		double goalDistance;
+    		
     		//get input and action - make decision
     		Input input = this.Convert2Complex(m_memory, m_latest);
     		//Input input = ((RoboCupPerception)agent.getP()).sense(m_memory);
@@ -172,6 +179,34 @@ class Brain extends Thread implements SensorInput
     			
     			//cast to RoboCupAction
     			RoboCupAction a = agent.run(input);
+    			
+    			object = m_memory.getObject("ball");
+    			if (object == null) {
+    				ballVisible = false;
+    				ballDirection = 0;
+    				ballDistance = 0;
+    			} else {
+    				ballVisible = true;
+    				ballDirection = object.m_direction;
+    				ballDistance = object.m_distance;
+    			}
+    			
+    			if( m_side == 'l' ) {
+					object = m_memory.getObject("goal r");
+				} else {
+					object = m_memory.getObject("goal l");
+				}
+    			if (object == null) {
+    				goalVisible = false;
+    				goalDirection = 0;
+    				goalDistance = 0;
+    			} else {
+    				goalVisible = true;
+    				goalDirection = object.m_direction;
+    				goalDistance = object.m_distance;
+    			}
+    			
+    			int expertAction = this.expert.getAction(ballVisible, ballDirection, ballDistance, goalVisible, goalDirection, goalDistance);    			
     			
     			// cases
     			if (a.getName().equals("turn+")) {
