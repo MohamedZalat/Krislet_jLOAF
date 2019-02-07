@@ -1,6 +1,10 @@
 package Krislet;
 //
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
 //	File:			Brain.java
 //	Author:		Krzysztof Langner
 //	Date:			1997/04/28
@@ -147,6 +151,23 @@ class Brain extends Thread implements SensorInput
 	//this.expert = new KickSpinOracle();
 	//this.expert = new TurnDirectionOracle();
 
+	// Setup the action log file
+	this.actionLogFileName = "ActionLog.log";
+	try {
+		BufferedWriter writer = new BufferedWriter(new FileWriter(this.actionLogFileName));
+		writer.append("Expert, Student");
+		writer.newLine();
+		writer.close();
+		
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+	// Select which version of the agent to use
+	this.useExpertAction = true;	// Use the expert
+	//this.useExpertAction = false;	// Use the student
+	
 		
 	start();
     }
@@ -154,6 +175,9 @@ class Brain extends Thread implements SensorInput
     public void run() {
     	int turnAngle = 10;
     	int turnDirection = 1;
+    	int expertAction = 0;
+		int studentAction = 0;
+		int actionToExecute = 0;
     	
     	ObjectInfo object;
     	
@@ -206,8 +230,8 @@ class Brain extends Thread implements SensorInput
     				goalDistance = object.m_distance;
     			}
     			
-    			int expertAction = this.expert.getAction(ballVisible, ballDirection, ballDistance, goalVisible, goalDirection, goalDistance);
-    			int studentAction = 0;
+    			expertAction = this.expert.getAction(ballVisible, ballDirection, ballDistance, goalVisible, goalDirection, goalDistance);
+    			studentAction = 0;
     			
     			// cases
     			if (a.getName().equals("turn+")) {
@@ -248,10 +272,48 @@ class Brain extends Thread implements SensorInput
     			m_memory.waitForNewInfo();
     		}
     		
-    		// TODO Execute the action
+    		// Execute the action
+    		if (this.useExpertAction) {
+    			actionToExecute = expertAction;
+    		} else {
+    			actionToExecute = studentAction;
+    		}
+    		if (actionToExecute == Behaviour.turnP) {
+    			turnDirection = 1;
+				m_krislet.turn(turnDirection * turnAngle);
+    		} else if (actionToExecute == Behaviour.turnN) {
+    			turnDirection = -1;
+				m_krislet.turn(turnDirection * turnAngle);
+    		} else if (actionToExecute == Behaviour.dash) {
+				object = m_memory.getObject("ball");
+				if (object == null) {
+					m_krislet.dash(100);
+				} else {
+					m_krislet.dash(10*object.m_distance);
+				}
+			} else {	// Kick
+				if( m_side == 'l' ) {
+					object = m_memory.getObject("goal r");
+				} else {
+					object = m_memory.getObject("goal l");
+				}
+				if ( object == null ) {
+					m_krislet.kick(100,0);
+				} else {
+					m_krislet.kick(100, object.m_direction);
+				}
+			}
     		
-    		
-    		// TODO Log the results
+    		// Log the results
+    		try {
+    			BufferedWriter writer = new BufferedWriter(new FileWriter(this.actionLogFileName, true));
+    			writer.append(new String(String.valueOf(expertAction) + ", " + String.valueOf(studentAction)));
+    			writer.newLine();
+    			writer.close();
+    		} catch (IOException e) {
+    			// TODO Auto-generated catch block
+    			e.printStackTrace();
+    		}
     		
     		// sleep one step to ensure that we will not send
 			// two commands in one cycle.
@@ -444,5 +506,7 @@ class Brain extends Thread implements SensorInput
     private RoboCupAgent agent; //robocup agent
     private Case m_latest;
     private Behaviour expert;
+    private String actionLogFileName;
+    private boolean useExpertAction;
     
 }
