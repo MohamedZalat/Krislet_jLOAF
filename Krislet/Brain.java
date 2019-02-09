@@ -101,11 +101,12 @@ class Brain extends Thread implements SensorInput
 	System.out.println("Creating Agent...");
 	agent = new RoboCupAgent();
 	
-
+	/*
 	// TB
 	//set reasoning
 	System.out.println("Setting Reasoner...");
 	agent.setR(new TBReasoning(cb));
+	*/
 	
 	/*
 	//"weightedKNN","kordered"
@@ -133,7 +134,7 @@ class Brain extends Thread implements SensorInput
 	agent.setR(new WeightedKNN(k,cb));
 	*/
 	
-	/*
+	
 	//"weightedKNN","kordered_r"
 	//set reasoning
 	System.out.println("Setting Reasoner...");
@@ -144,12 +145,12 @@ class Brain extends Thread implements SensorInput
 		c.getInput().setSimilarityMetric(sim);
 	}
 	agent.setR(new WeightedKNN(k,cb));
-	*/
+	
 	
 	// Setup the expert
-	this.expert = new FiniteTurnOracle();
+	//this.expert = new FiniteTurnOracle();
 	//this.expert = new KickSpinOracle();
-	//this.expert = new TurnDirectionOracle();
+	this.expert = new TurnDirectionOracle();
 
 	// Setup the action log file
 	this.actionLogFileName = "ActionLog.log";
@@ -165,8 +166,8 @@ class Brain extends Thread implements SensorInput
 	}
 	
 	// Select which version of the agent to use
-	this.useExpertAction = true;	// Use the expert
-	//this.useExpertAction = false;	// Use the student
+	//this.useExpertAction = true;	// Use the expert
+	this.useExpertAction = false;	// Use the student
 	
 		
 	start();
@@ -236,37 +237,12 @@ class Brain extends Thread implements SensorInput
     			// cases
     			if (a.getName().equals("turn+")) {
     				studentAction = Behaviour.turnP;
-    				//System.out.println("turn+");
-    				//turnDirection = 1;
-    				//m_krislet.turn(turnDirection * turnAngle);
     			} else if (a.getName().equals("turn-")) {
     				studentAction = Behaviour.turnN;
-    				//System.out.println("turn-");
-    				//turnDirection = -1;
-    				//m_krislet.turn(turnDirection * turnAngle);
     			} else if (a.getName().equals("dash")) {
     				studentAction = Behaviour.dash;
-    				//System.out.println("dash");
-    				//object = m_memory.getObject("ball");
-    				//if (object == null) {
-    				//	m_krislet.dash(100);
-    				//} else {
-    				//	m_krislet.dash(10*object.m_distance);
-    				//}
     			} else if (a.getName().equals("kick")) {
     				studentAction = Behaviour.kick;
-    				//System.out.println("kick");
-    				//if( m_side == 'l' ) {
-    				//	object = m_memory.getObject("goal r");
-					//} else {
-					//	object = m_memory.getObject("goal l");
-					//}
-    				//if ( object == null ) {
-					//	System.out.println("Can't see goal");
-					//	m_krislet.kick(100,0);
-					//} else {
-					//	m_krislet.kick(100, object.m_direction);
-					//}
     			}
     			m_latest = new Case(input, a);
     			m_memory.waitForNewInfo();
