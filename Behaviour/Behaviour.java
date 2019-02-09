@@ -2,6 +2,7 @@ package Behaviour;
 
 public abstract class Behaviour {
 
+	// actions correspond to ['turn+','turn-', 'dash', 'kick']
 	public static final int turnP = 0;
 	public static final int turnN = 1;
 	public static final int dash = 2;

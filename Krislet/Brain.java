@@ -155,7 +155,7 @@ class Brain extends Thread implements SensorInput
 	this.actionLogFileName = "ActionLog.log";
 	try {
 		BufferedWriter writer = new BufferedWriter(new FileWriter(this.actionLogFileName));
-		writer.append("Expert, Student");
+		writer.append("Expert,Student");
 		writer.newLine();
 		writer.close();
 		
@@ -307,7 +307,7 @@ class Brain extends Thread implements SensorInput
     		// Log the results
     		try {
     			BufferedWriter writer = new BufferedWriter(new FileWriter(this.actionLogFileName, true));
-    			writer.append(new String(String.valueOf(expertAction) + ", " + String.valueOf(studentAction)));
+    			writer.append(new String(String.valueOf(expertAction) + "," + String.valueOf(studentAction)));
     			writer.newLine();
     			writer.close();
     		} catch (IOException e) {
