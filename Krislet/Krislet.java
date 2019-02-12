@@ -21,7 +21,7 @@ import java.util.regex.*;
 //	This is main object class
 //
 //***************************************************************************
-class Krislet implements SendCommand
+public class Krislet implements SendCommand
 {
     //===========================================================================
     // Initialization member functions

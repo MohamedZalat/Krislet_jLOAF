@@ -101,12 +101,12 @@ class Brain extends Thread implements SensorInput
 	System.out.println("Creating Agent...");
 	agent = new RoboCupAgent();
 	
-	/*
+	
 	// TB
 	//set reasoning
 	System.out.println("Setting Reasoner...");
 	agent.setR(new TBReasoning(cb));
-	*/
+	
 	
 	/*
 	//"weightedKNN","kordered"
@@ -134,7 +134,7 @@ class Brain extends Thread implements SensorInput
 	agent.setR(new WeightedKNN(k,cb));
 	*/
 	
-	
+	/*
 	//"weightedKNN","kordered_r"
 	//set reasoning
 	System.out.println("Setting Reasoner...");
@@ -145,15 +145,15 @@ class Brain extends Thread implements SensorInput
 		c.getInput().setSimilarityMetric(sim);
 	}
 	agent.setR(new WeightedKNN(k,cb));
-	
+	*/
 	
 	// Setup the expert
-	//this.expert = new FiniteTurnOracle();
+	this.expert = new FiniteTurnOracle();
 	//this.expert = new KickSpinOracle();
-	this.expert = new TurnDirectionOracle();
+	//this.expert = new TurnDirectionOracle();
 
 	// Setup the action log file
-	this.actionLogFileName = "ActionLog.log";
+	this.actionLogFileName = "ActionLog" + team + number + ".log";
 	try {
 		BufferedWriter writer = new BufferedWriter(new FileWriter(this.actionLogFileName));
 		writer.append("Expert,Student");
@@ -166,8 +166,8 @@ class Brain extends Thread implements SensorInput
 	}
 	
 	// Select which version of the agent to use
-	//this.useExpertAction = true;	// Use the expert
-	this.useExpertAction = false;	// Use the student
+	this.useExpertAction = true;	// Use the expert
+	//this.useExpertAction = false;	// Use the student
 	
 		
 	start();
