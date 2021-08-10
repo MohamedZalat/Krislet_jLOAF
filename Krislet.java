@@ -73,6 +73,18 @@ class Krislet implements SendCommand
 			else if(a[c].compareTo("-cb")==0){
 				cb = a[c+1];
 				}
+			else if(a[c].compareTo("-of")==0){
+				outfile = a[c+1];
+				}
+			else if(a[c].compareTo("-dagger")==0){
+			    dagger = a[c+1].equals("t");
+				}
+			else if(a[c].compareTo("-supervisor")==0){
+			    supervisorMode = a[c+1].equals("t");
+				}
+			else if(a[c].compareTo("-model")==0){
+			    modelName = a[c+1];
+				}
 			else
 			    {
 				throw new Exception();
@@ -223,7 +235,8 @@ class Krislet implements SendCommand
 			    m_team, 
 			    m.group(1).charAt(0),
 			    Integer.parseInt(m.group(2)),
-			    m.group(3),m_matching, cb);
+			    m.group(3),m_matching, cb, outfile, modelName,
+			    dagger, supervisorMode);
     }
 
 
@@ -331,7 +344,11 @@ class Krislet implements SendCommand
     private Pattern message_pattern = Pattern.compile("^\\((\\w+?)\\s.*");
     private Pattern hear_pattern = Pattern.compile("^\\(hear\\s(\\w+?)\\s(\\w+?)\\s(.*)\\).*");
     private static String m_matching="gmm";//how the brain performs matching
-    private static String cb ="cb0.cb";
+    private static String cb ="krislet_supervisor.cb";
+    private static String outfile="krislet_supervisor.cb";
+    private static String modelName="krislet_WeightedKNN";
+    private static boolean dagger=false;
+    private static boolean supervisorMode=false;
     //private Pattern coach_pattern = Pattern.compile("coach");
     // constants
     private static final int	MSG_SIZE = 4096;	// Size of socket buffer
