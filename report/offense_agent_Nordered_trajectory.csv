@@ -1,0 +1,3230 @@
+state,action,supervisor_action
+ball not in vision,turn+40,turn+40
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,kick_to_goal,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,turn+40,turn+40
+ball in vision,kick_to_goal,turn_ball
+ball in vision,kick_to_goal,turn_ball
+ball in vision,kick_to_goal,turn_ball
+ball in vision,kick_to_goal,turn_ball
+ball in vision,kick_to_goal,turn_ball
+ball in vision,kick_to_goal,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball kickable and can see goal,dash,kick_to_goal
+ball in vision,dash,dash
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,turn+40,turn+40
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,dash
+ball in vision,dash,turn_ball
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,kick_to_goal,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball not in vision,kick_to_goal,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,dash,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball in vision,kick_to_goal,turn_ball
+ball in vision,kick_to_goal,turn_ball
+ball in vision,kick_to_goal,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,dash,turn_ball
+ball in vision,kick_to_goal,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball aligned,turn_ball,dash
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40
+ball not in vision,turn_ball,turn+40

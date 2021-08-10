@@ -1,0 +1,3646 @@
+state,action,supervisor_action
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball not in vision,turn-40,turn-40
+ball not in vision,turn-40,turn-40
+ball not in vision,turn-40,turn-40
+ball not in vision,turn-40,turn-40
+ball not in vision,turn-40,turn-40
+ball not in vision,turn-40,turn-40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball not in vision,turn-40,turn-40
+ball not in vision,turn-40,turn-40
+ball not in vision,turn-40,turn-40
+ball not in vision,turn-40,turn-40
+ball not in vision,turn-40,turn-40
+ball not in vision,turn-40,turn-40
+ball not in vision,turn-40,turn-40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball not in vision,turn-40,turn-40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball not in vision,turn+40,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball not in vision,turn-40,turn-40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball not in vision,turn+40,turn+40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can NOT see goal,turn+40,turn+40
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball kickable and can see goal,kick_to_goal,kick_to_goal
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball not in vision,turn-40,turn-40
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball in vision,turn_ball,turn_ball
+ball aligned,dash,dash
+ball aligned,dash,dash
+ball aligned,dash,dash
